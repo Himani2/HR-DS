@@ -1,0 +1,20 @@
+Question : Compare the Triplet (Algorithm)
+
+Link:https://www.hackerrank.com/challenges/compare-the-triplets/problem?isFullScreen=true
+
+Solution:
+
+def compareTriplets(a, b):
+    # Write your code here
+    
+    apoint =0
+    bpoint =0
+    for i in range(3):
+        if a[i] > b[i]:
+            apoint+=1
+        elif a[i] < b[i]:
+            bpoint+=1
+        else:
+            continue
+    return apoint, bpoint
+    
