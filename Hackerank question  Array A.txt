@@ -1,0 +1,6 @@
+Hackerank question : Array :A 
+
+Answer:
+
+def reverseArray(a):
+    return a[::-1]
