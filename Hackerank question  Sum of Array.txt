@@ -1,0 +1,12 @@
+Hackerank question :2) Simple Array Sum
+Link:https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true
+
+Answer:
+
+def simpleArraySum(ar):
+    sum =0
+    for val in ar:
+        sum+=val
+    return sum
+
+
