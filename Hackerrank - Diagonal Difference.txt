@@ -1,0 +1,15 @@
+Question : Diagonal Difference (Algorithm)
+
+Link:https:https://www.hackerrank.com/challenges/diagonal-difference/problem?isFullScreen=true
+
+Solution:
+
+def diagonalDifference(arr):
+    # Write your code here
+    n =len(arr)
+    diag1=0
+    diag2=0
+    for i in range(n):
+        diag1 +=arr[i][i]
+        diag2 += arr[i][n-1-i]
+    return abs(diag1-diag2)
